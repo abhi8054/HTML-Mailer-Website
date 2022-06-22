@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "poppins-regular";
+    src: url("Fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "poppins-medium";
+    src: url("Fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: "poppins-bold";
+    src: url("Fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: "poppins-semibold";
+    src: url("Fonts/Poppins-SemiBold.ttf");
+}
+ 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins-regular";
+}
+
+body{
+ background: url("/image/PNG/3x/Asset\ 173x.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.top-part{
+    margin: 3rem 6rem 0 6rem;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.header img{
+    width: 200px;
+}
+.header p{
+    color:white;
+    font-size: 1.7rem;
+    margin: 1.1rem;
+}
+
+.content{
+    margin-top:1rem;
+    display: flow-root;
+    padding: 4rem 6rem;
+    background: url("/image/PNG/3x/Asset\ 183x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content .girl{
+    float: right;
+    height: 500px;
+    width:465px;
+    border-radius: 50%;
+    shape-outside:circle(50%);
+    margin-left:5rem ;
+    margin-right:2rem ;
+    margin-bottom:1rem ;
+}
+
+.content .dream-int h1{
+    line-height: 55px;
+    font-size: 2.1rem;
+    text-align: justify;
+    color: #30234f;
+    font-family: "poppins-bold";
+}
+.content .dream-int h1 span{
+    font-family: "poppins-bold";
+    color:rgb(255, 98, 1);
+}
+.content .dream-int p,.content .dream-int .txt{
+    font-size: 1.5rem;
+    line-height: 40px;
+    margin: 2rem 0;
+    font-family: "poppins-medium";
+    text-align: justify;
+    color: #30234f;
+}
+.content .dream-int .txt{
+    font-size: 1.7rem;
+}
+.content .dream-int.txt span{
+    font-family: "poppins-medium";
+    font-size: 1.7rem;
+}
+.pay-us{
+    margin-top: 5rem;
+    background: url("/image/PNG/3x/Asset\ 73x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    width: 100%;
+}
+.pay-us .right img{
+    width: 210px;
+    height: 110px;
+}
+.pay-us .left h2{
+    font-family: "poppins-semibold";
+    font-size: 2rem;
+}
+.pay-us .left h2:nth-child(1){
+    color: #30234f;
+}
+.pay-us .left h2:nth-child(2){
+    color:rgb(255, 98, 1);
+}
+
+.content .cp{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.9rem;
+    font-family: "poppins-bold";
+    color: #30234f;
+}
+.btnwrapper{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background: url("/image/PNG/3x/Asset\ 93x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    font-family: "poppins-bold";
+    color:white;
+    text-align: center;
+}
+
+.service{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.service .service-box{
+    background: url("/image/PNG/3x/Asset\ 83x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    padding: 2rem 2rem;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 1rem;
+}
+.service .service-box img{
+    width: 120px;
+    height: 120px;
+}
+.service .service-box p{
+    font-family: "poppins-normal";
+    font-size: 2rem;
+    color: #30234f;
+    text-align: center;
+}
+
+.thanks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.thanks p{
+    font-size: 1.9rem;
+    color: black;
+    text-align: center;
+    font-family: "poppins-regular";
+}
+.thanks p span{
+    font-family: "poppins-bold";
+}
+.telegram{
+    margin-top: 2rem;
+    background: url("/image/PNG/3x/Asset\ 163x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding:2rem 2em;
+    align-items: center;
+    width: 100%;
+}
+
+.telegram .right img{
+    width: 260px;
+    height: 75px;
+}
+.telegram .left p{
+    font-family: "poppins-semibold";
+    font-size: 1.5rem;
+    color:black;
+    text-align: left;
+}
+
+.bottom-part{
+    background: url("/image/PNG/3x/Asset\ 163x.png");
+    width: 100%;
+    display: flex;
+    padding: 3rem 7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-part .logo img{
+    width: 170px;
+    height: 105px;
+    margin-left: 2rem;
+}
+.bottom-part .social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5rem;
+}
+.bottom-part .social-media img{
+    width: 31px;
+    height: 31px;
+}
+
+
+@media (max-width:800px){
+
+    body{
+        background: url("/image/PNG/1x/Asset\ 17.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .top-part{
+        margin: 2rem 1rem 0 1rem;
+    }
+    .header p{
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+    .content{
+        padding: 2rem 1rem;
+        background-color:#ffffff;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .content .girl{
+        float: none;
+        height: 200px;
+        width:200px;
+        margin: 0;
+    }
+    .dream-int{
+        text-align: center;
+    }
+    .content .dream-int h1{
+        line-height: 45px;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .content .dream-int p,.content .dream-int .txt{
+        font-size: 1.2rem;
+        line-height: 30px;
+        margin: 2rem 0;
+    }
+    .pay-us{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem 1rem;
+        gap:2rem;
+    }
+    .pay-us .right img{
+        width: 150px;
+        height: 120px;
+    }
+    .pay-us .left h2{
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+    .content .cp{
+        font-size: 1.5rem;
+    }
+    .btn{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        border-radius: 25px;
+    }
+    .service{
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .service .service-box{
+        width: 100%;
+        gap:1rem;
+    }
+    .service .service-box p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .thanks p{
+        font-size: 1.5rem;
+    }
+    .telegram{
+        flex-direction: column;
+        padding:2rem 1em;
+        gap: 2rem;
+    }
+    .telegram .right img{
+        width: 100%;
+        height: 70px;
+    }
+    .telegram .left p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .bottom-part{
+        padding: 3rem 1rem;
+        gap: 2.5rem;
+        flex-direction: column-reverse;
+    }
+    .bottom-part .logo img{
+        width: 100px;
+        height: 89px;
+        margin: 0;
+    }
+    .bottom-part .social-media{
+        gap: 3rem;
+    }
+}
